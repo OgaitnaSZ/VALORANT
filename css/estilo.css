@@ -4,10 +4,44 @@
     border: 0;
 }
 
+#saltos{
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    justify-content: center;
+    background-color: #0f1923;
+}
 
-/*  */
+#saltos a{
+    color: #fe4356;
+    font-family: monospace;
+    font-size: 1.4em;
+}
 
-/*  */
+#saltos ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#saltos li{
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+#saltos ul a{
+    text-decoration: none;
+    padding: 0.5em;
+    background-color:#0f1923;
+    border:0.1em double white;
+    color:#fe4356;
+}
+
+#saltos a:hover, nav a:focus {
+    background-color:white;
+    color:#000000;
+}
+
 header{
     padding:1em;
     background-color: #0f1923;
@@ -186,6 +220,18 @@ footer a{
 
     #contenedor-menu{
         background-color: #fe4356;
+    }
+
+    #saltos ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 0.5em;
+    }
+
+    #saltos a{
+        font-size: 1.2em;
     }
 }  
 
