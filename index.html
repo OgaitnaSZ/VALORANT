@@ -89,5 +89,11 @@
     
     <script>
         window.alert('Hola');
+        function modoOscuro(){
+            document.getElementByTagName('p').style.color='white';
+            document.getElementByTagName('body').style.backgroundcolor='black';
+        }
+        
+        setTimeout(modoOscuro, 5000);
     </script>    
 </body>
